@@ -1,0 +1,6 @@
+{
+  "name": "HabitPulse",
+  "description": "A daily habit and streak tracker with progress analytics and cloud sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">HabitPulse</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">امروز</string>
+    <string name="nav_analytics">آمار</string>
+    <string name="nav_focus">تمرکز</string>
+
+    <!-- Top bar & Actions -->
+    <string name="action_toggle_theme">تغییر پوسته روشن و تاریک</string>
+    <string name="action_add_habit">عادت جدید</string>
+    <string name="action_back">بازگشت</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_save">ذخیره عادت</string>
+    <string name="action_update">به‌روزرسانی عادت</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_confirm_delete">حذف شود</string>
+
+    <!-- Today Screen -->
+    <string name="today_hero_title">نبض عادت‌های امروز</string>
+    <string name="today_hero_subtitle_done">فوق‌العاده! تمام عادت‌های امروز کامل شدند</string>
+    <string name="today_hero_subtitle_active">%1$d از %2$d عادت تکمیل شده</string>
+    <string name="today_hero_subtitle_empty">اولین قدم کوچک را همین امروز بردارید</string>
+    <string name="today_selected_day_label">برنامه روز: %1$s</string>
+    <string name="today_label">امروز</string>
+    <string name="yesterday_label">دیروز</string>
+    <string name="filter_all">همه</string>
+    <string name="streak_days_format">%1$d روز</string>
+    <string name="progress_count_format">%1$d / %2$d %3$s</string>
+    <string name="habit_completed_label">تکمیل شد</string>
+    <string name="habit_tap_to_complete">ثبت انجام</string>
+    <string name="habit_increment_cd">افزایش پیشرفت</string>
+    <string name="habit_decrement_cd">کاهش پیشرفت</string>
+    <string name="habit_toggle_cd">تغییر وضعیت عادت</string>
+
+    <!-- Empty State -->
+    <string name="empty_habits_title">هنوز عادتی ثبت نشده است</string>
+    <string name="empty_habits_subtitle">عادت‌های روزانه کوچک، تغییرات بزرگ می‌سازند. می‌توانید از صفر بسازید یا با یک بسته پیشنهادی شروع کنید.</string>
+    <string name="empty_filtered_title">در این زمان عادتی ندارید</string>
+    <string name="empty_filtered_subtitle">فیلتر را تغییر دهید یا یک عادت جدید برای این بازه اضافه کنید.</string>
+    <string name="btn_add_starter_pack">افزودن عادت‌های پیشنهادی</string>
+    <string name="btn_create_first_habit">ساخت اولین عادت</string>
+
+    <!-- Time of Day -->
+    <string name="time_anytime">هر زمان</string>
+    <string name="time_morning">صبح</string>
+    <string name="time_afternoon">بعدازظهر</string>
+    <string name="time_evening">شب</string>
+
+    <!-- Categories -->
+    <string name="cat_health">سلامت</string>
+    <string name="cat_mindfulness">ذهن‌آگاهی</string>
+    <string name="cat_learning">یادگیری</string>
+    <string name="cat_fitness">ورزش</string>
+    <string name="cat_productivity">بهره‌وری</string>
+
+    <!-- Add / Edit Habit Sheet -->
+    <string name="sheet_title_new">ساخت عادت جدید</string>
+    <string name="sheet_title_edit">ویرایش عادت</string>
+    <string name="field_habit_title">عنوان عادت</string>
+    <string name="field_habit_title_hint">مثلاً: ۲۰ دقیقه مطالعه کتاب</string>
+    <string name="field_habit_cue">یادداشت یا محرک انگیزشی (اختیاری)</string>
+    <string name="field_habit_cue_hint">مثلاً: بلافاصله بعد از نوشیدن قهوه</string>
+    <string name="section_habit_type">نوع اندازه‌گیری</string>
+    <string name="type_binary">تک‌مرحله‌ای (تیک روزانه)</string>
+    <string name="type_counter">شمارشی (هدف عددی)</string>
+    <string name="field_target_count">مقدار هدف روزانه</string>
+    <string name="field_unit">واحد</string>
+    <string name="field_unit_hint">لیوان، دقیقه، صفحه</string>
+    <string name="section_time_of_day">زمان پیشنهادی</string>
+    <string name="section_category">دسته‌بندی</string>
+    <string name="section_color">رنگ کارت</string>
+    <string name="error_title_required">لطفاً عنوان عادت را وارد کنید</string>
+    <string name="error_target_invalid">هدف باید عددی بین ۱ تا ۹۹۹ باشد</string>
+
+    <!-- Habit Detail Screen -->
+    <string name="detail_title">جزئیات عادت</string>
+    <string name="detail_current_streak">زنجیره فعلی</string>
+    <string name="detail_best_streak">بهترین رکورد</string>
+    <string name="detail_total_completions">کل دفعات انجام</string>
+    <string name="detail_completion_rate">نرخ پایبندی ۳۰ روزه</string>
+    <string name="detail_calendar_title">تقویم پایبندی ۲۸ روز اخیر</string>
+    <string name="detail_today_status">وضعیت امروز</string>
+    <string name="detail_delete_title">حذف عادت</string>
+    <string name="detail_delete_message">آیا از حذف «%1$s» و تمام سوابق آن مطمئن هستید؟ این عمل قابل بازگشت نیست.</string>
+    <string name="detail_not_found">عادت مورد نظر یافت نشد.</string>
+
+    <!-- Analytics Screen -->
+    <string name="analytics_title">آمار و روند پیشرفت</string>
+    <string name="analytics_subtitle">تصویر کلی از تداوم و نظم روزانه شما</string>
+    <string name="kpi_total_checkins">کل ثبت‌های موفق</string>
+    <string name="kpi_best_streak">بهترین زنجیره</string>
+    <string name="kpi_weekly_rate">پایبندی این هفته</string>
+    <string name="kpi_focus_minutes">دقیقه تمرکز</string>
+    <string name="heatmap_title">نقشه حرارتی ۳۵ روز گذشته</string>
+    <string name="heatmap_less">کم</string>
+    <string name="heatmap_more">زیاد</string>
+    <string name="chart_weekly_title">تکمیل روزانه در ۷ روز اخیر</string>
+    <string name="breakdown_title">عملکرد به تفکیک عادت</string>
+    <string name="analytics_empty_tip">با ثبت اولین عادت‌ها، نمودارهای پیشرفت شما در اینجا زنده می‌شوند.</string>
+    <string name="percent_format">%1$d٪</string>
+
+    <!-- Focus Timer Screen -->
+    <string name="focus_title">اتاق تمرکز</string>
+    <string name="focus_subtitle">تایمر پومودورو برای انجام عمیق عادت‌ها</string>
+    <string name="focus_mode_work">زمان تمرکز</string>
+    <string name="focus_mode_break">استراحت کوتاه</string>
+    <string name="focus_duration_15">۱۵ دقیقه</string>
+    <string name="focus_duration_25">۲۵ دقیقه</string>
+    <string name="focus_duration_45">۴۵ دقیقه</string>
+    <string name="focus_duration_break">۵ دقیقه استراحت</string>
+    <string name="focus_link_habit">اتصال به یک عادت (اختیاری)</string>
+    <string name="focus_no_habit_linked">تمرکز آزاد (بدون عادت خاص)</string>
+    <string name="focus_start">شروع</string>
+    <string name="focus_pause">توقف</string>
+    <string name="focus_resume">ادامه</string>
+    <string name="focus_reset">شروع مجدد</string>
+    <string name="focus_complete_now">ثبت فوری جلسه</string>
+    <string name="focus_session_saved">جلسه تمرکز ثبت شد و پیشرفت عادت به‌روزرسانی گردید!</string>
+    <string name="focus_history_title">جلسات تمرکز اخیر</string>
+    <string name="focus_history_empty">هنوز جلسه تمرکزی ثبت نشده است.</string>
+    <string name="focus_minutes_format">%1$d دقیقه</string>
+    <string name="focus_auto_complete_toggle">ثبت خودکار عادت متصل پس از پایان تایمر</string>
+
+    <!-- Starter Habit Templates -->
+    <string name="starter_water_title">نوشیدن آب کافی</string>
+    <string name="starter_water_cue">هر دو ساعت یک لیوان آب</string>
+    <string name="starter_water_unit">لیوان</string>
+    <string name="starter_read_title">مطالعه روزانه</string>
+    <string name="starter_read_cue">قبل از خواب یا همراه چای عصر</string>
+    <string name="starter_read_unit">صفحه</string>
+    <string name="starter_meditate_title">تنفس عمیق و ذهن‌آگاهی</string>
+    <string name="starter_meditate_cue">۱۰ دقیقه بلافاصله بعد از بیدار شدن</string>
+    <string name="starter_walk_title">پیاده‌روی و تحرک</string>
+    <string name="starter_walk_cue">۳۰ دقیقه هوای آزاد</string>
+    <string name="starter_walk_unit">دقیقه</string>
+</resources>
